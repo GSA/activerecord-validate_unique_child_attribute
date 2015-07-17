@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - "1.9.3"
+  - "2.1.5"
+gemfiles:
+  - gemfiles/ar_3.2.gemfile
+  - gemfiles/ar_4.0.gemfile
+  - gemfiles/ar_4.1.gemfile
+  - gemfiles/ar_4.2.gemfile
+script: "bundle exec rake spec"
