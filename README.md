@@ -67,7 +67,7 @@ Tested with active* versions 3.2.14, 4.0.13, 4.1.12, and 4.2.3. See `Appraisals`
 
 # Code Status
 
-[![Build Status](https://travis-ci.org/RapidRiverSoftware/activerecord-validate_unique_child_attribute.svg?branch=master)](https://travis-ci.org/RapidRiverSoftware/activerecord-validate_unique_child_attribute)
+[![Build Status](https://travis-ci.org/GSA/activerecord-validate_unique_child_attribute.svg?branch=master)](https://travis-ci.org/RapidRiverSoftware/activerecord-validate_unique_child_attribute)
 
 # License
 
