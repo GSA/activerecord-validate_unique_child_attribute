@@ -63,7 +63,7 @@ This is a really simple implementation! Please open a pull request if you've got
 
 # Compatibility
 
-Tested with active* versions 3.2.14, 4.0.13, 4.1.12, and 4.2.3. See `Appraisals`.
+Tested with active* versions 3.2.22.5, 4.0.13, 4.1.12, 4.2.10, 5.0.0.1, and 5.1.4. See `Appraisals`.
 
 # Code Status
 
