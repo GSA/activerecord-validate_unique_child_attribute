@@ -10,9 +10,9 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://github.com/GSA/activerecord-validate_unique_child_attribute'
   s.license       = 'MIT'
 
-  s.add_runtime_dependency "activerecord",  '>= 3.2.0', '< 5.2.0'
-  s.add_runtime_dependency "activesupport", '>= 3.2.0', '< 5.2.0'
-  s.add_runtime_dependency "activemodel",   '>= 3.2.0', '< 5.2.0'
+  s.add_runtime_dependency "activerecord",  '>= 3.2.0', '< 6.0'
+  s.add_runtime_dependency "activesupport", '>= 3.2.0', '< 6.0'
+  s.add_runtime_dependency "activemodel",   '>= 3.2.0', '< 6.0'
 
   s.add_development_dependency 'appraisal', '= 2.0.2'
   s.add_development_dependency 'rake',      '~> 10.4'
