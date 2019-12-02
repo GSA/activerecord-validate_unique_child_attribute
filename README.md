@@ -63,11 +63,11 @@ This is a really simple implementation! Please open a pull request if you've got
 
 # Compatibility
 
-Tested with active* versions 3.2.22.5, 4.0.13, 4.1.12, 4.2.10, 5.0.0.1, and 5.1.4. See `Appraisals`.
+Tested with active* versions 3.2.22.5, 4.0.13, 4.1.12, 4.2.10, 5.0.0.1, 5.1.4, and 5.2.3. See `Appraisals`.
 
 # Code Status
 
-[![Build Status](https://travis-ci.org/GSA/activerecord-validate_unique_child_attribute.svg?branch=master)](https://travis-ci.org/RapidRiverSoftware/activerecord-validate_unique_child_attribute)
+[![Build Status](https://travis-ci.org/GSA/activerecord-validate_unique_child_attribute.svg?branch=master)](https://travis-ci.org/GSA/activerecord-validate_unique_child_attribute)
 
 # License
 
