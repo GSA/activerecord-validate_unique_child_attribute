@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - "2.5.5"
+  - "2.5.7"
 gemfile:
   - gemfiles/ar_5.0.gemfile
   - gemfiles/ar_5.1.gemfile
