@@ -1,0 +1,12 @@
+name: 'ActiveRecord Validate Unique Child Attribute'
+description: 'Tool to guarantee uniqueness of a single attribute value across one or more children of an ActiveRecord object'
+license: null
+openSourceProject: 1
+governmentWideReuseProject: 0
+tags:
+  - GSA
+  - search
+  - search.gov
+  - activerecord
+contact:
+  email: search@gsa.gov
