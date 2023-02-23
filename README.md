@@ -8,14 +8,14 @@ A simplistic but functional workaround for https://github.com/rails/rails/issues
 
 Install the gem:
 
-```
+```ruby
 gem 'activerecord-validate_unique_child_attribute',
   require: 'active_record/validate_unique_child_attribute'
 ```
 
 Add the functionality to your ActiveRecord class:
 
-```
+```ruby
 class MyParentRecord < ActiveRecord::Base
   include ActiveRecord::ValidateUniqueChildAttribute
 
@@ -39,7 +39,7 @@ This is a long-standing [Rails bug](https://github.com/rails/rails/issues/4568) 
 # Additional Options
 
 
-```
+```ruby
 validates_uniqueness_of_child_attribute :children, :some_attribute,
   validate: true, error_formatter: :my_error_formatter
   
@@ -51,7 +51,7 @@ end
 * `validate`: Whether to call `valid?` on each of the `children` before looking for duplicate values of `some_attribute`. This is useful if your `before_validation` code munges the value of `some_attribute` by stripping, downcasing, or otherwise normalizing its value.
 * `error_formatter`: A method for formatting the error message that is attached to the parent record's `errors[:children]` array. A default formatter is provided. Alternatively you can pass a block to the `validates_uniqueness_of_child_attribute` class method:
 
-```
+```ruby
   validates_uniqueness_of_child_attribute :children, :some_attribute do |attribute, duplicates|
     "Oh no! Duplicate #{attribute.singularize.humanize} values: #{duplicates.join(', ')}"
   end
